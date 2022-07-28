@@ -5881,6 +5881,7 @@ static InitFunction initFunction([]()
 		g_oneSyncPopulation = instance->AddVariable<bool>("onesync_population", ConVar_ReadOnly, true);
 		g_oneSyncARQ = instance->AddVariable<bool>("onesync_automaticResend", ConVar_None, false);
 
+
 		g_oneSyncLowDelayDistanceVar = instance->AddVariable<float>("onesync_lowDelayDistance", ConVar_None, 35.0f, &g_oneSyncLowDelayDistance);
 		g_oneSyncLowDelayDivisorVar = instance->AddVariable<int>("onesync_lowDelayDivisor", ConVar_None, 4, &g_oneSyncLowDelayDivisor);
 
