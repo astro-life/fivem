@@ -1,3 +1,3 @@
 #pragma once
-#define GIT_DESCRIPTION "no-version (didn't run build tools?)"
-#define GIT_TAG "0.0.0"
+#define GIT_DESCRIPTION "master SERVER v1.0.0.5755 win32"
+#define GIT_TAG "1.0.0.5755"

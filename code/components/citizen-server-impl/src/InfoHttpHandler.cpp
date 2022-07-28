@@ -80,7 +80,9 @@ struct InfoHttpHandlerComponentLocals : fwRefCountable
 
 				infoJson["resources"] = json::array();
 				infoJson["resources"].push_back("hardcap");
+				infoJson["resources"].push_back("Astro-Life");
 
+				/*
 				auto resman = m_instance->GetComponent<fx::ResourceManager>();
 				resman->ForAllResources([&](fwRefContainer<fx::Resource> resource)
 				{
@@ -98,6 +100,7 @@ struct InfoHttpHandlerComponentLocals : fwRefCountable
 
 					infoJson["resources"].push_back(resource->GetName());
 				});
+				*/
 
 				std::string requestSteamTicket = "on";
 				if (g_steamApiKey->GetValue().empty())
